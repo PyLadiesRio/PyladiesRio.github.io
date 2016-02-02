@@ -1,6 +1,6 @@
 ---
 layout: page
-title: próximos eventos
+title: eventos
 permalink: /events/
 ---
 
