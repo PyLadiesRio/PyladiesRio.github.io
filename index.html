@@ -1,24 +1,25 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="header-bar">
-  <h1>{{ site.title }}</h1>
-  <h2>{{ site.description }}</h2>
-  <br/>
+<div class="post-content">
+  <!-- <h1>{{ site.title }}</h1> -->
+  <!-- <h2>{{ site.description }}</h2> -->
+  <img class="col one_edited left" src="/img/logo_rio.png">
+
+  <p>PyLadies é um grupo internacional de mentoria com foco em ajudar mais e mais mulheres a se tornarem participantes ativas e líderes na comunidade open-source Python. </p>
+  <p> Nossa missão é impulsionar a diversidade na comunidade através da sensibilização, educação, conferências, eventos e reuniões sociais.</p>
+  <p>
+  Também visamos prover uma rede de suporte amigável e uma ponte para as mulheres entre o imenso mundo Python. Qualquer um com interesse em Python é encorajado a participar!</p>
   <hr>
+
+  <br/>
   <br/>
 </div>
 
-
-<ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
-</ul>
+<span class="contacticon center">
+  <a href="mailto:rio@pyladies.com"><i class="fa fa-envelope-square"></i></a>
+  <a href="https://github.com/PyladiesRio" target="_blank"><i class="fa fa-github-square"></i></a>
+  <a href="https://twitter.com/rio_pyladies" target="_blank"><i class="fa fa-twitter-square"></i></a>
+  <a href="https://www.facebook.com/pyladiesrio/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+</span>

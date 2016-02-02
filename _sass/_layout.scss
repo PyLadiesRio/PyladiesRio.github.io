@@ -78,12 +78,19 @@ border-top: 1px solid $pink;
 font-size: 10px;
 background-color: $pink;
 padding: 2px;
-color: #aaa;
+color: #fff;
 position:fixed;
 left:0px;
 bottom:0px;
 height:25px;
 width:100%;
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+    a:hover{
+
+    }
 }
 /**
  * Pagination   **********************************************************
@@ -260,6 +267,9 @@ float: right;
 }
 .one {
 width:33.33%;
+}
+.one_edited {
+width:50%;
 }
 .two {
 width: 66.66%;
