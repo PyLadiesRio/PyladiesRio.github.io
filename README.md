@@ -3,6 +3,7 @@
 ##Para adicionar uma lady há duas formas:
 
 1) Com redirecionamento externo:
+
 Basta criar um arquivo .md no diretório _ladies com o formato:
 ```
 ---
@@ -14,6 +15,7 @@ redirect: http://sitedalady.com (a URL do site da lady)
 ```
 
 2) Com as informações no próprio site
+
 Basta criar um arquivo .md no diretório _ladies com o formato:
 ```
 ---
