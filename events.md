@@ -8,7 +8,7 @@ permalink: /events/
 
 {% if site.events %}
 <ul>
-{% for event in site.events %}
+{% for event in site.events reversed %}
     <li>
         <p><a href="{{ event.url }}">{{ event.title }}</a></p>
     </li>
